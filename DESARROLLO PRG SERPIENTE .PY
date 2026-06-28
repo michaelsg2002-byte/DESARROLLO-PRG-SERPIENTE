@@ -25,7 +25,7 @@ while juego_activo:
        (nueva_entrada == "Derecha" and direccion == "Izquierda"):
         print("Movimiento inválido. No puedes ir en dirección opuesta.")
     else:
-        direccion = nueva_entrad # Actualiza dirección válida 
+        direccion = nueva_entrada # Actualiza dirección válida 
 
     # 2. Mover la cabeza de la serpiente (Vectores de movimiento)
     cabeza = cuerpo[0]
